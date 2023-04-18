@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+
+.diamond{
+     width: 220px;
+     height: 220px;
+     position: absolute;
+     border-top:40px solid lightgreen;
+     border-left:40px solid rgb(79, 79, 241);
+     border-right:40px solid orange;
+     border-bottom:40px solid gray;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     transform-origin: 0 100%;
+     transform: rotate(-45deg);
+     padding: 10px;
+}
+.corner1{
+    width: 45px;
+    height: 45px;
+    background-color: brown;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: -8%;
+    left: 108%;
+    right: 108%;
+
+
+}
+.corner2{
+    width: 45px;
+    height: 45px;
+    background-color: brown;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 108%;
+    left: 108%;
+    right: 108%;
+
+
+}
+.corner3{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(52, 52, 241);
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 108%;
+    right: 89%;
+    
+
+}
+.corner4{
+    width: 45px;
+    height: 45px;
+    background-color: green;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: -8%;
+    right: 89%;
+}
+
+.content{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+h1{
+    color: white;
+}
+span{
+    color: orange;
+}
+p{
+    color: white;
+    margin-top: -5px;
+    
+}
